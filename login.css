@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 242, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contener img {
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+.contener .infor {
+    width: 60%;
+}
+
+.contener .infor p {
+    margin-top: -10px;
+    font-size: 30px;
+    margin-left: 174px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.contener .form-contener {
+    text-align: center;
+    width: 30%;
+    top: -5px;
+    margin-top: 150px;
+    margin-left: 55%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: .4em;
+}
+
+.contener .form-contener input {
+    padding: 18px;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: .4em;
+    outline: none;
+    caret-color: rgb(24, 119, 242);
+}
+
+::placeholder {
+    font-size: 17px;
+    color: #707070a4;
+}
+
+.contener .form-contener input.email:focus {
+    border: 1px solid rgb(24, 119, 242);
+
+}
+
+.contener .form-contener input.password:focus {
+    border: 1px solid rgb(24, 119, 242);
+}
+
+.contener .form-contener button.login-btn {
+    background-color: rgb(24, 119, 242);
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contener .form-contener a.password {
+    text-decoration: none;
+    color: rgb(24, 119, 243);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contener .form-contener button.new-btn {
+    background-color: rgb(66, 183, 42);
+    width: 50%;
+    padding: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contener .form-contener span.line {
+    width: 350px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.contener a.page-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 17px;
+
+}
+
+.contener span.page {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+.contener a.page-link:hover {
+    text-decoration: underline;
+}
+
+.sing-up-contener {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 242, 245, 0.8);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sing-up-contener .form-contener {
+    width: 30%;
+    background-color: rgb(240, 242, 245);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sing-up-contener .form-contener h1 {
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sing-up-contener .form-contener p.h5 {
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sing-up-contener .form-contener p.icon {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -80px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.sing-up-contener .form-contener span.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.sing-up-contener .form-contener input.name-1 {
+    width: 47%;
+    float: left;
+    padding: 10px;
+    margin-left: 6px;
+    border-radius: .4em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+
+}
+
+.sing-up-contener .form-contener input.name-2 {
+    width: 47%;
+    float: left;
+    padding: 10px;
+    margin-left: 6px;
+    border-radius: .4em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.sing-up-contener .form-contener input.email {
+    margin-left: 5px;
+    width: 96%;
+    padding: 12px;
+    border-radius: .4em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sing-up-contener .form-contener input.password {
+    margin-left: 5px;
+    width: 96%;
+    padding: 12px;
+    border-radius: .4em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sing-up-contener .form-contener input::placeholder {
+    font-size: 15px;
+}
+
+.sing-up-contener .form-contener label.date {
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+.sing-up-contener .form-contener select.day {
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: .2em;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    outline: none;
+}
+
+.sing-up-contener .form-contener select.day option {
+    background-color: rgb(240, 242, 245);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sing-up-contener .form-contener select.month {
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: .2em;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    outline: none;
+}
+
+.sing-up-contener .form-contener select.month option {
+    background-color: rgb(240, 242, 245);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sing-up-contener .form-contener select.year {
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    border-radius: .2em;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    outline: none;
+}
+
+.sing-up-contener .form-contener select.year option {
+    background-color: rgb(240, 242, 245);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sing-up-contener .form-contener .checkbox-1 {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 120px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: .2em;
+
+}
+
+.sing-up-contener .form-contener .checkbox-1 label {
+    float: left;
+}
+
+.sing-up-contener .form-contener .checkbox-1 input {
+    float: right;
+    margin-top: 5px;
+    outline: none;
+}
+
+.sing-up-contener .form-contener .checkbox-2 {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 120px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: .2em;
+}
+
+.sing-up-contener .form-contener .checkbox-2 label {
+    float: left;
+}
+
+.sing-up-contener .form-contener .checkbox-2 input {
+    float: right;
+    margin-top: 5px;
+    outline: none;
+}
+
+.sing-up-contener .form-contener .checkbox-3 {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 120px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    border-radius: .2em;
+}
+
+.sing-up-contener .form-contener .checkbox-3 label {
+    float: left;
+}
+
+.sing-up-contener .form-contener .checkbox-3 input {
+    float: right;
+    margin-top: 5px;
+    outline: none;
+}
+
+.sing-up-contener .form-contener p.infor {
+    font-size: 11px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.sing-up-contener .form-contener p.infor span {
+    color: blue;
+    cursor: pointer;
+
+
+}
+
+.sing-up-contener .form-contener p.infor span:hover {
+    text-decoration: underline;
+}
+
+.sing-up-contener .form-contener p.infor-2 {
+    font-size: 11px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 12px;
+
+}
+
+.sing-up-contener .form-contener p.infor-2 span {
+    color: blue;
+    cursor: pointer;
+
+}
+
+.sing-up-contener .form-contener p.infor-2 span:hover {
+    text-decoration: underline;
+}
+
+.sing-up-contener .form-contener button {
+    background-color: rgb(58, 138, 43);
+    border: none;
+    padding: 8px;
+    width: 50%;
+    border-radius: .4em;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
